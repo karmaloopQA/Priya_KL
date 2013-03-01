@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="true">
+  <TopNode>[0-1025]D:\Karmaloop automation demo\KarmaLoop\KarmaLoop\bin\Debug\KarmaLoop.dll</TopNode>
+  <SelectedNode>[0-1010]KarmaLoop.KL.Tests.TestSuite_ViewProduct.Scen05_AddToWishList_AlreadyLoggedUser</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1025]D:\Karmaloop automation demo\KarmaLoop\KarmaLoop\bin\Debug\KarmaLoop.dll" Expanded="true" />
+    <Node UniqueName="[0-1026]KarmaLoop" Expanded="true" />
+    <Node UniqueName="[0-1004]KarmaLoop.KL.SetupFixture" Expanded="true" />
+    <Node UniqueName="[0-1028]KarmaLoop.KL.Tests" Expanded="true" Checked="true" />
+    <Node UniqueName="[0-1000]KarmaLoop.KL.Tests.TestSuite_CheckOut" Expanded="true" />
+    <Node UniqueName="[0-1018]KarmaLoop.KL.Tests.TestSuite_Home" Expanded="true" />
+    <Node UniqueName="[0-1011]KarmaLoop.KL.Tests.TestSuite_TopHeader" Expanded="true" />
+    <Node UniqueName="[0-1005]KarmaLoop.KL.Tests.TestSuite_ViewProduct" Expanded="true" />
+    <Node UniqueName="[0-1010]KarmaLoop.KL.Tests.TestSuite_ViewProduct.Scen05_AddToWishList_AlreadyLoggedUser" Checked="true" />
+  </Nodes>
+</VisualState>

@@ -1,0 +1,26 @@
+C:\Users\Pritesh Patel\Desktop\KarmaLoop\KarmaLoop\bin\Debug\KarmaLoop.dll
+C:\Users\Pritesh Patel\Desktop\KarmaLoop\KarmaLoop\bin\Debug\KarmaLoop.pdb
+C:\Users\Pritesh Patel\Desktop\KarmaLoop\KarmaLoop\bin\Debug\Castle.Core.dll
+C:\Users\Pritesh Patel\Desktop\KarmaLoop\KarmaLoop\bin\Debug\nunit.framework.dll
+C:\Users\Pritesh Patel\Desktop\KarmaLoop\KarmaLoop\bin\Debug\WebDriver.dll
+C:\Users\Pritesh Patel\Desktop\KarmaLoop\KarmaLoop\bin\Debug\WebDriver.Support.dll
+C:\Users\Pritesh Patel\Desktop\KarmaLoop\KarmaLoop\bin\Debug\Castle.Core.xml
+C:\Users\Pritesh Patel\Desktop\KarmaLoop\KarmaLoop\bin\Debug\nunit.framework.xml
+C:\Users\Pritesh Patel\Desktop\KarmaLoop\KarmaLoop\bin\Debug\WebDriver.xml
+C:\Users\Pritesh Patel\Desktop\KarmaLoop\KarmaLoop\bin\Debug\WebDriver.Support.xml
+C:\Users\Pritesh Patel\Desktop\KarmaLoop\KarmaLoop\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pritesh Patel\Desktop\KarmaLoop\KarmaLoop\obj\Debug\KarmaLoop.dll
+C:\Users\Pritesh Patel\Desktop\KarmaLoop\KarmaLoop\obj\Debug\KarmaLoop.pdb
+D:\Karmaloop automation demo\KarmaLoop\KarmaLoop\bin\Debug\KarmaLoop.dll
+D:\Karmaloop automation demo\KarmaLoop\KarmaLoop\bin\Debug\KarmaLoop.pdb
+D:\Karmaloop automation demo\KarmaLoop\KarmaLoop\bin\Debug\Castle.Core.dll
+D:\Karmaloop automation demo\KarmaLoop\KarmaLoop\bin\Debug\nunit.framework.dll
+D:\Karmaloop automation demo\KarmaLoop\KarmaLoop\bin\Debug\WebDriver.dll
+D:\Karmaloop automation demo\KarmaLoop\KarmaLoop\bin\Debug\WebDriver.Support.dll
+D:\Karmaloop automation demo\KarmaLoop\KarmaLoop\bin\Debug\Castle.Core.xml
+D:\Karmaloop automation demo\KarmaLoop\KarmaLoop\bin\Debug\nunit.framework.xml
+D:\Karmaloop automation demo\KarmaLoop\KarmaLoop\bin\Debug\WebDriver.xml
+D:\Karmaloop automation demo\KarmaLoop\KarmaLoop\bin\Debug\WebDriver.Support.xml
+D:\Karmaloop automation demo\KarmaLoop\KarmaLoop\obj\Debug\ResolveAssemblyReference.cache
+D:\Karmaloop automation demo\KarmaLoop\KarmaLoop\obj\Debug\KarmaLoop.dll
+D:\Karmaloop automation demo\KarmaLoop\KarmaLoop\obj\Debug\KarmaLoop.pdb

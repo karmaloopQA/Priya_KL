@@ -1,0 +1,351 @@
+<h1><img src='.\logo.png'</h1><br>
+<script>function printpage(){window.print()}</script><input type='button' value='Print This Page?' onclick='printpage()' style='float: right;'/><br>
+<font face='Calibri' size='3'><h2>
+Test Suite Name: TestSuite_ViewProduct
+</h2>
+</font>
+<br><font face='Calibri' size='3' color='green'>
+<table border='1'><tr>
+<td align='center'><b>Operating System:</b></td>
+<td>Windows Server 2008</b></td>
+</tr><tr>
+<td align='center'><b>URL:</b></td>
+<td>http://www.karmaloop.com/</td>
+</tr></table>
+<br><font face='Calibri' size='3'>
+<table border='1'><tr>
+<th>Scenario Name: ViewProduct_05 - Add a Product to Wish List(when user already logged)</th>
+</tr></table>
+<br>
+<table border='1'>
+<tr>
+<th width=4%>Step #</th>
+<th width=30%>Description</th>
+<th width=13%>DateTime</th>
+<th width=5%>Status</th>
+<th>Information/Warning</th>
+</tr>
+<tr>
+<td>1</td>
+<td> Launching a application - http://www.karmaloop.com/</td>
+<td>[2/28/2013 12:06:08 PM] </td>
+<td align='center'><b><font color='green'>Pass</font></b></td>
+<td><font color='green'><b>INFO: </b>Application Launched successfully</font></td>
+</tr>
+<tr>
+<td>2</td>
+<td> Closing 'Subscribe to E-List' pop up.</td>
+<td>[2/28/2013 12:06:29 PM] </td>
+<td align='center'><b><font color='green'>Pass</font></b></td>
+<td><font color='green'><b>INFO: </b>pop up closed.</font></td>
+</tr>
+<tr>
+<td>3</td>
+<td> Verify Text/URL on Home Page.</td>
+<td>[2/28/2013 12:06:31 PM] </td>
+<td align='center'><b><font color='green'>Pass</font></b></td>
+<td><font color='green'><b>INFO: </b>Application Launched successfully</font></td>
+</tr>
+<tr>
+<td>4</td>
+<td> Click on SIGN IN link from Home Page.</td>
+<td>[2/28/2013 12:06:31 PM] </td>
+<td align='center'><b><font color='green'>Pass</font></b></td>
+<td><font color='green'><b>INFO: </b>Action performed successfully.</font></td>
+</tr>
+<tr>
+<td>5</td>
+<td> Enter login credential and click on Submit button.</td>
+<td>[2/28/2013 12:06:31 PM] </td>
+<td align='center'><b><font color='green'>Pass</font></b></td>
+<td><font color='green'><b>INFO: </b>Login credential Entered.<br>Used Account of: karmaloop74@yahoo.com</font></td>
+</tr>
+<tr>
+<td>6</td>
+<td> Verify login is successful or not</td>
+<td>[2/28/2013 12:06:40 PM] </td>
+<td align='center'><b><font color='green'>Pass</font></b></td>
+<td><font color='green'><b>INFO: </b>Login  Successful.</font></td>
+</tr>
+<tr>
+<td>7</td>
+<td> Check whether the products are displayed on Home Page or not?</td>
+<td>[2/28/2013 12:06:42 PM] </td>
+<td align='center'><b><font color='green'>Pass</font></b></td>
+<td><font color='green'><b>INFO: </b>No. of Products Found: 16</font></td>
+</tr>
+<tr>
+<td>8</td>
+<td> Click on any random product to view</td>
+<td>[2/28/2013 12:06:43 PM] </td>
+<td align='center'><b><font color='green'>Pass</font></b></td>
+<td><font color='green'><b>INFO: </b>ProductID: 328563 clicked.</font></td>
+</tr>
+<tr>
+<td>9</td>
+<td> Verify Text/URL on Product page</td>
+<td>[2/28/2013 12:06:55 PM] </td>
+<td align='center'><b><font color='green'>Pass</font></b></td>
+<td><font color='green'><b>INFO: </b>Searched page verified successfully!</font></td>
+</tr>
+<tr>
+<td>10</td>
+<td> Select anysize.</td>
+<td>[2/28/2013 12:06:55 PM] </td>
+<td align='center'><b><font color='green'>Pass</font></b></td>
+<td><font color='green'><b>INFO: </b>size chosen.</font></td>
+</tr>
+<tr>
+<td>11</td>
+<td> Click on 'Add To Wish List' button.</td>
+<td>[2/28/2013 12:06:56 PM] </td>
+<td align='center'><b><font color='green'>Pass</font></b></td>
+<td><font color='green'><b>INFO: </b>Button clicked successfully.</font></td>
+</tr>
+<tr>
+<td>12</td>
+<td> Check whether the button caption updated to 'ADDED TO WISH LIST'</td>
+<td>[2/28/2013 12:06:57 PM] </td>
+<td align='center'><b><font color='red'>Fail</font></b></td>
+<td><font color='red'><b>ERROR: </b><br><b>ERROR Message:</b><br>  Actual: ADD TO WISH LIST
+  Expected: True
+  But was:  False
+<br><br><b>StackTrace:</b><br>    at NUnit.Framework.Assert.That(Object actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual, String message)
+   at KarmaLoop.KL.ViewProduct.IsProductAddedToWishList() in D:\Karmaloop automation demo\KarmaLoop\KarmaLoop\KL\PageObjects\Products\ViewProduct\ViewProduct.cs:line 194
+   at KarmaLoop.KL.ViewProduct.ClickAddToWishList_WhenAlreadyLoggedIn() in D:\Karmaloop automation demo\KarmaLoop\KarmaLoop\KL\PageObjects\Products\ViewProduct\ViewProduct.cs:line 80
+   at KarmaLoop.KL.Tests.TestSuite_ViewProduct.Scen05_AddToWishList_AlreadyLoggedUser() in D:\Karmaloop automation demo\KarmaLoop\KarmaLoop\KL\Tests\TestSuite_ViewProduct.cs:line 132<br><br>See <a href= .\ViewProduct_05.jpg>Screenshot<a> of the Page where the execution Stopped.</font></td>
+</tr>
+<tr>
+<TH colspan='5'>
+<b><font color='blue'>
+Skipping remaining steps due to above error.
+</font></b>
+</th>
+</tr>
+</table><br><table border = '1'>
+<tr><th>Status</th><th># of Steps</th></tr>
+<tr><td><font color='green'>Pass</font></td><td align='center'><font color='green'>11</font></td></tr>
+<tr><td><font color='orange'>Pass with Warning</font></td><td align='center'><font color='orange'>0</font></td></tr>
+<tr><td><font color='red'>Fail</font></td><td align='center'><font color='red'>1</font></td></tr>
+</table></font>
+<br><font face='Calibri' size='3' color='green'>
+<table border='1'><tr>
+<td align='center'><b>Operating System:</b></td>
+<td>Windows Server 2008</b></td>
+</tr><tr>
+<td align='center'><b>URL:</b></td>
+<td>http://www.karmaloop.com/</td>
+</tr></table>
+<br><font face='Calibri' size='3'>
+<table border='1'><tr>
+<th>Scenario Name: ViewProduct_06 - Add a Product to Wish List(Exisitng User logs in during process)</th>
+</tr></table>
+<br>
+<table border='1'>
+<tr>
+<th width=4%>Step #</th>
+<th width=30%>Description</th>
+<th width=13%>DateTime</th>
+<th width=5%>Status</th>
+<th>Information/Warning</th>
+</tr>
+<tr>
+<td>1</td>
+<td> Launching a application - http://www.karmaloop.com/</td>
+<td>[2/28/2013 12:06:59 PM] </td>
+<td align='center'><b><font color='green'>Pass</font></b></td>
+<td><font color='green'><b>INFO: </b>Application Launched successfully</font></td>
+</tr>
+<tr>
+<td>2</td>
+<td> Closing 'Subscribe to E-List' pop up.</td>
+<td>[2/28/2013 12:07:11 PM] </td>
+<td align='center'><b><font color='green'>Pass</font></b></td>
+<td><font color='green'><b>INFO: </b>pop up closed.</font></td>
+</tr>
+<tr>
+<td>3</td>
+<td> Verify Text/URL on Home Page.</td>
+<td>[2/28/2013 12:07:13 PM] </td>
+<td align='center'><b><font color='green'>Pass</font></b></td>
+<td><font color='green'><b>INFO: </b>Application Launched successfully</font></td>
+</tr>
+<tr>
+<td>4</td>
+<td> Check whether the products are displayed on Home Page or not?</td>
+<td>[2/28/2013 12:07:13 PM] </td>
+<td align='center'><b><font color='green'>Pass</font></b></td>
+<td><font color='green'><b>INFO: </b>No. of Products Found: 16</font></td>
+</tr>
+<tr>
+<td>5</td>
+<td> Click on any random product to view</td>
+<td>[2/28/2013 12:07:14 PM] </td>
+<td align='center'><b><font color='green'>Pass</font></b></td>
+<td><font color='green'><b>INFO: </b>ProductID: 339166 clicked.</font></td>
+</tr>
+<tr>
+<td>6</td>
+<td> Verify Text/URL on Product page</td>
+<td>[2/28/2013 12:07:21 PM] </td>
+<td align='center'><b><font color='green'>Pass</font></b></td>
+<td><font color='green'><b>INFO: </b>Searched page verified successfully!</font></td>
+</tr>
+<tr>
+<td>7</td>
+<td> Select anysize.</td>
+<td>[2/28/2013 12:07:21 PM] </td>
+<td align='center'><b><font color='green'>Pass</font></b></td>
+<td><font color='green'><b>INFO: </b>size chosen.</font></td>
+</tr>
+<tr>
+<td>8</td>
+<td> Click on 'Add To Wish List' button.</td>
+<td>[2/28/2013 12:07:25 PM] </td>
+<td align='center'><b><font color='green'>Pass</font></b></td>
+<td><font color='green'><b>INFO: </b>Button clicked successfully.</font></td>
+</tr>
+<tr>
+<td>9</td>
+<td> Verify Text on Login/Create Account Pop up</td>
+<td>[2/28/2013 12:07:25 PM] </td>
+<td align='center'><b><font color='green'>Pass</font></b></td>
+<td><font color='green'><b>INFO: </b>Text on Login/Register popup verified.</font></td>
+</tr>
+<tr>
+<td>10</td>
+<td> Enter login credential and click on Submit button.</td>
+<td>[2/28/2013 12:07:32 PM] </td>
+<td align='center'><b><font color='red'>Fail</font></b></td>
+<td><font color='red'><b>ERROR: </b><br><b>ERROR Message:</b><br>Object reference not set to an instance of an object.<br><br><b>StackTrace:</b><br>    at OpenQA.Selenium.Controls._Click(IWebDriver driver, String When, String How, Boolean waitForURLChange) in D:\Karmaloop automation demo\KarmaLoop\KarmaLoop\Common\Controls.cs:line 521
+   at KarmaLoop.KL.Login.LoginAs(Boolean isNotFromWishList) in D:\Karmaloop automation demo\KarmaLoop\KarmaLoop\KL\PageObjects\TopHeader\Header\Login.cs:line 23
+   at KarmaLoop.KL.AddToWishList.LoginAsExistingMember() in D:\Karmaloop automation demo\KarmaLoop\KarmaLoop\KL\PageObjects\Products\ViewProduct\AddToWishList.cs:line 22
+   at KarmaLoop.KL.ViewProduct.ClickAddToWishList_WhenLoginNeeded() in D:\Karmaloop automation demo\KarmaLoop\KarmaLoop\KL\PageObjects\Products\ViewProduct\ViewProduct.cs:line 91
+   at KarmaLoop.KL.Tests.TestSuite_ViewProduct.Scen06_AddToWishList_LoginDuringProcess() in D:\Karmaloop automation demo\KarmaLoop\KarmaLoop\KL\Tests\TestSuite_ViewProduct.cs:line 153<br><br>See <a href= .\ViewProduct_06.jpg>Screenshot<a> of the Page where the execution Stopped.</font></td>
+</tr>
+<tr>
+<TH colspan='5'>
+<b><font color='blue'>
+Skipping remaining steps due to above error.
+</font></b>
+</th>
+</tr>
+</table><br><table border = '1'>
+<tr><th>Status</th><th># of Steps</th></tr>
+<tr><td><font color='green'>Pass</font></td><td align='center'><font color='green'>9</font></td></tr>
+<tr><td><font color='orange'>Pass with Warning</font></td><td align='center'><font color='orange'>0</font></td></tr>
+<tr><td><font color='red'>Fail</font></td><td align='center'><font color='red'>1</font></td></tr>
+</table></font>
+<br><font face='Calibri' size='3' color='green'>
+<table border='1'><tr>
+<td align='center'><b>Operating System:</b></td>
+<td>Windows Server 2008</b></td>
+</tr><tr>
+<td align='center'><b>URL:</b></td>
+<td>http://www.karmaloop.com/</td>
+</tr></table>
+<br><font face='Calibri' size='3'>
+<table border='1'><tr>
+<th>Scenario Name: ViewProduct_07 - Add a Product to Wish List(creating new account during process</th>
+</tr></table>
+<br>
+<table border='1'>
+<tr>
+<th width=4%>Step #</th>
+<th width=30%>Description</th>
+<th width=13%>DateTime</th>
+<th width=5%>Status</th>
+<th>Information/Warning</th>
+</tr>
+<tr>
+<td>1</td>
+<td> Launching a application - http://www.karmaloop.com/</td>
+<td>[2/28/2013 12:09:48 PM] </td>
+<td align='center'><b><font color='green'>Pass</font></b></td>
+<td><font color='green'><b>INFO: </b>Application Launched successfully</font></td>
+</tr>
+<tr>
+<td>2</td>
+<td> Closing 'Subscribe to E-List' pop up.</td>
+<td>[2/28/2013 12:09:59 PM] </td>
+<td align='center'><b><font color='green'>Pass</font></b></td>
+<td><font color='green'><b>INFO: </b>pop up closed.</font></td>
+</tr>
+<tr>
+<td>3</td>
+<td> Verify Text/URL on Home Page.</td>
+<td>[2/28/2013 12:10:01 PM] </td>
+<td align='center'><b><font color='green'>Pass</font></b></td>
+<td><font color='green'><b>INFO: </b>Application Launched successfully</font></td>
+</tr>
+<tr>
+<td>4</td>
+<td> Check whether the products are displayed on Home Page or not?</td>
+<td>[2/28/2013 12:10:01 PM] </td>
+<td align='center'><b><font color='green'>Pass</font></b></td>
+<td><font color='green'><b>INFO: </b>No. of Products Found: 16</font></td>
+</tr>
+<tr>
+<td>5</td>
+<td> Click on any random product to view</td>
+<td>[2/28/2013 12:10:02 PM] </td>
+<td align='center'><b><font color='green'>Pass</font></b></td>
+<td><font color='green'><b>INFO: </b>ProductID: 305869 clicked.</font></td>
+</tr>
+<tr>
+<td>6</td>
+<td> Verify Text/URL on Product page</td>
+<td>[2/28/2013 12:10:15 PM] </td>
+<td align='center'><b><font color='green'>Pass</font></b></td>
+<td><font color='green'><b>INFO: </b>Searched page verified successfully!</font></td>
+</tr>
+<tr>
+<td>7</td>
+<td> Select anysize.</td>
+<td>[2/28/2013 12:10:15 PM] </td>
+<td align='center'><b><font color='green'>Pass</font></b></td>
+<td><font color='green'><b>INFO: </b>size chosen.</font></td>
+</tr>
+<tr>
+<td>8</td>
+<td> Click on 'Add To Wish List' button.</td>
+<td>[2/28/2013 12:10:18 PM] </td>
+<td align='center'><b><font color='green'>Pass</font></b></td>
+<td><font color='green'><b>INFO: </b>Button clicked successfully.</font></td>
+</tr>
+<tr>
+<td>9</td>
+<td> Verify Text on Login/Create Account Pop up</td>
+<td>[2/28/2013 12:10:19 PM] </td>
+<td align='center'><b><font color='red'>Fail</font></b></td>
+<td><font color='red'><b>ERROR: </b><br><b>ERROR Message:</b><br>  Expected Text isn't available
+  Expected: True
+  But was:  False
+<br><br><b>StackTrace:</b><br>    at NUnit.Framework.Assert.That(Object actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual, String message)
+   at KarmaLoop.KL.AddToWishList.VerifyLoginRegisterPopUp() in D:\Karmaloop automation demo\KarmaLoop\KarmaLoop\KL\PageObjects\Products\ViewProduct\AddToWishList.cs:line 52
+   at KarmaLoop.KL.AddToWishList.CreateNewAccount() in D:\Karmaloop automation demo\KarmaLoop\KarmaLoop\KL\PageObjects\Products\ViewProduct\AddToWishList.cs:line 32
+   at KarmaLoop.KL.ViewProduct.ClickAddToWishList_WhenNewAccountNeeded() in D:\Karmaloop automation demo\KarmaLoop\KarmaLoop\KL\PageObjects\Products\ViewProduct\ViewProduct.cs:line 103
+   at KarmaLoop.KL.Tests.TestSuite_ViewProduct.Scen07_AddToWishList_CreateNewAccountDuringProcess() in D:\Karmaloop automation demo\KarmaLoop\KarmaLoop\KL\Tests\TestSuite_ViewProduct.cs:line 174<br><br>See <a href= .\ViewProduct_07.jpg>Screenshot<a> of the Page where the execution Stopped.</font></td>
+</tr>
+<tr>
+<TH colspan='5'>
+<b><font color='blue'>
+Skipping remaining steps due to above error.
+</font></b>
+</th>
+</tr>
+</table><br><table border = '1'>
+<tr><th>Status</th><th># of Steps</th></tr>
+<tr><td><font color='green'>Pass</font></td><td align='center'><font color='green'>8</font></td></tr>
+<tr><td><font color='orange'>Pass with Warning</font></td><td align='center'><font color='orange'>0</font></td></tr>
+<tr><td><font color='red'>Fail</font></td><td align='center'><font color='red'>1</font></td></tr>
+</table></font>
+<br><font face='Calibri' size='3'><h3>************************************<br>
+Final status of all the tests</h3><table border = '1'>
+<tr><th><font color='blue'>Scenario Status</font></th>
+<th><font color='blue'># of Scenarios</font></th></tr>
+<tr><td><font color='green'>Pass/Warning</font></td><td align='center'>0</td></tr>
+<tr><td><font color='red'>Fail</font></td><td align='center'>3</td></tr>
+</table></font>

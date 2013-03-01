@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\Karmaloop automation demo\KarmaLoop\KarmaLoop\bin\Debug\KarmaLoop.dll" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2013-02-28" time="19:51:06">
+  <environment nunit-version="2.5.10.11092" clr-version="2.0.50727.4016" os-version="Microsoft Windows NT 6.0.6002 Service Pack 2" platform="Win32NT" cwd="C:\Program Files\NUnit 2.5.10\bin\net-2.0" machine-name="PRITESHPATEL-PC" user="Pritesh Patel" user-domain="PriteshPatel-PC" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="D:\Karmaloop automation demo\KarmaLoop\KarmaLoop\bin\Debug\KarmaLoop.dll" executed="True" result="Success" success="True" time="142.372" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="KarmaLoop" executed="True" result="Success" success="True" time="142.361" asserts="0">
+        <results>
+          <test-suite type="SetUpFixture" name="KL" executed="True" result="Success" success="True" time="142.355" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="142.213" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="TestSuite_ViewProduct" executed="True" result="Success" success="True" time="142.208" asserts="0">
+                    <results>
+                      <test-case name="KarmaLoop.KL.Tests.TestSuite_ViewProduct.Scen05_AddToWishList_AlreadyLoggedUser" executed="True" result="Success" success="True" time="124.594" asserts="10" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
